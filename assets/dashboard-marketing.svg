@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a060b" />
+      <stop offset="100%" stop-color="#2c0c16" />
+    </linearGradient>
+    <linearGradient id="mCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38111d" />
+      <stop offset="100%" stop-color="#2a0a14" />
+    </linearGradient>
+    <linearGradient id="mRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c41e3a" />
+      <stop offset="100%" stop-color="#ff6584" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#mBg)" />
+
+  <!-- Top Bar -->
+  <rect width="800" height="50" fill="#240a12" />
+  <text x="24" y="32" font-family="'Inter', sans-serif" font-weight="700" font-size="16" fill="#ffffff">MARKETING CAMPAIGN &amp; ROI ANALYTICS</text>
+  <rect x="630" y="14" width="146" height="24" rx="12" fill="#3f1420" />
+  <text x="650" y="30" font-family="'Inter', sans-serif" font-size="11" fill="#ffb8c5">Channel: All Active ▾</text>
+
+  <!-- KPI Cards -->
+  <!-- KPI 1 -->
+  <rect x="24" y="70" width="170" height="85" rx="10" fill="url(#mCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="38" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">TOTAL AD SPEND</text>
+  <text x="38" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ffffff">$128.5K</text>
+  <text x="38" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff6584">On-budget pace</text>
+
+  <!-- KPI 2 -->
+  <rect x="214" y="70" width="170" height="85" rx="10" fill="url(#mCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="228" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">RETURN ON AD SPEND</text>
+  <text x="228" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ffffff">4.82x</text>
+  <text x="228" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff6584">▲ +0.65x benchmark</text>
+
+  <!-- KPI 3 -->
+  <rect x="404" y="70" width="170" height="85" rx="10" fill="url(#mCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="418" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">CONVERSIONS</text>
+  <text x="418" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ffffff">18,450</text>
+  <text x="418" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff6584">▲ +14.2% YoY</text>
+
+  <!-- KPI 4 -->
+  <rect x="594" y="70" width="182" height="85" rx="10" fill="url(#mCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="608" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">AVG CAC</text>
+  <text x="608" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ff6584">$6.96</text>
+  <text x="608" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff94a9">▼ -18% acquisition cost</text>
+
+  <!-- Chart 1: Multi-Channel Performance (Left) -->
+  <rect x="24" y="175" width="460" height="300" rx="12" fill="url(#mCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="44" y="206" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#ffffff">Conversion Funnel &amp; Revenue by Channel</text>
+  <text x="44" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">Google Ads vs Social Ads vs Email &amp; Organic</text>
+
+  <!-- Bars -->
+  <rect x="60" y="270" width="42" height="150" rx="4" fill="#c41e3a" />
+  <text x="81" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Google</text>
+
+  <rect x="150" y="250" width="42" height="170" rx="4" fill="#ff6584" />
+  <text x="171" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Meta Ads</text>
+
+  <rect x="240" y="290" width="42" height="130" rx="4" fill="#c41e3a" />
+  <text x="261" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">TikTok</text>
+
+  <rect x="330" y="230" width="42" height="190" rx="4" fill="#ff6584" />
+  <text x="351" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Email</text>
+
+  <rect x="420" y="260" width="42" height="160" rx="4" fill="#c41e3a" />
+  <text x="441" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Organic</text>
+
+  <line x1="45" y1="420" x2="475" y2="420" stroke="#4e1b27" stroke-width="1" />
+
+  <!-- Chart 2: Funnel Breakdown (Right) -->
+  <rect x="504" y="175" width="272" height="300" rx="12" fill="url(#mCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="522" y="206" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#ffffff">Funnel Drop-Off Stages</text>
+  <text x="522" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">Impressions to purchase lifecycle</text>
+
+  <!-- Funnel 1 -->
+  <text x="522" y="258" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Impressions (840K)</text>
+  <rect x="522" y="266" width="230" height="8" rx="4" fill="#ff6584" />
+
+  <!-- Funnel 2 -->
+  <text x="522" y="304" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Clicks (64.2K)</text>
+  <rect x="522" y="312" width="180" height="8" rx="4" fill="#c41e3a" />
+
+  <!-- Funnel 3 -->
+  <text x="522" y="350" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Add to Cart (28.1K)</text>
+  <rect x="522" y="358" width="135" height="8" rx="4" fill="#c41e3a" />
+
+  <!-- Funnel 4 -->
+  <text x="522" y="396" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Purchases (18.4K)</text>
+  <rect x="522" y="404" width="95" height="8" rx="4" fill="#ff6584" />
+</svg>
+

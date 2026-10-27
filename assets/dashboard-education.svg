@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18060b" />
+      <stop offset="100%" stop-color="#2a0c15" />
+    </linearGradient>
+    <linearGradient id="eCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38111d" />
+      <stop offset="100%" stop-color="#280913" />
+    </linearGradient>
+    <linearGradient id="eRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c41e3a" />
+      <stop offset="100%" stop-color="#ff6584" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#eBg)" />
+
+  <!-- Top Bar -->
+  <rect width="800" height="50" fill="#240a12" />
+  <text x="24" y="32" font-family="'Inter', sans-serif" font-weight="700" font-size="16" fill="#ffffff">EDUCATION &amp; EMPLOYMENT RATE ANALYTICS</text>
+  <rect x="630" y="14" width="146" height="24" rx="12" fill="#3f1420" />
+  <text x="646" y="30" font-family="'Inter', sans-serif" font-size="11" fill="#ffb8c5">Cohort: 2020–2025 ▾</text>
+
+  <!-- KPI Cards -->
+  <!-- KPI 1 -->
+  <rect x="24" y="70" width="170" height="85" rx="10" fill="url(#eCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="38" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">GRAD EMPLOYMENT RATE</text>
+  <text x="38" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ffffff">88.4%</text>
+  <text x="38" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff6584">▲ +3.2% vs national avg</text>
+
+  <!-- KPI 2 -->
+  <rect x="214" y="70" width="170" height="85" rx="10" fill="url(#eCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="228" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">HIGHER ED ATTAINMENT</text>
+  <text x="228" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ffffff">64.8%</text>
+  <text x="228" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff6584">▲ +5.1% completion</text>
+
+  <!-- KPI 3 -->
+  <rect x="404" y="70" width="170" height="85" rx="10" fill="url(#eCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="418" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">JOB-DEGREE ALIGNMENT</text>
+  <text x="418" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ffffff">82.1%</text>
+  <text x="418" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff6584">High field relevance</text>
+
+  <!-- KPI 4 -->
+  <rect x="594" y="70" width="182" height="85" rx="10" fill="url(#eCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="608" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">AVG STARTING SALARY</text>
+  <text x="608" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ff6584">₱28,500</text>
+  <text x="608" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff94a9">Monthly median income</text>
+
+  <!-- Chart 1: Employment Rate by Education Level (Left) -->
+  <rect x="24" y="175" width="460" height="300" rx="12" fill="url(#eCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="44" y="206" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#ffffff">Employment Rate by Educational Attainment</text>
+  <text x="44" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">Comparison of workforce participation across credentials</text>
+
+  <!-- Column Bars -->
+  <!-- Level 1 -->
+  <rect x="70" y="320" width="42" height="100" rx="4" fill="#961329" />
+  <text x="91" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">High School</text>
+  <text x="91" y="312" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">58%</text>
+
+  <!-- Level 2 -->
+  <rect x="160" y="280" width="42" height="140" rx="4" fill="#c41e3a" />
+  <text x="181" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Tech-Voc</text>
+  <text x="181" y="272" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">74%</text>
+
+  <!-- Level 3 -->
+  <rect x="250" y="240" width="42" height="180" rx="4" fill="#ff6584" />
+  <text x="271" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Bachelor's</text>
+  <text x="271" y="232" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">89%</text>
+
+  <!-- Level 4 -->
+  <rect x="340" y="220" width="42" height="200" rx="4" fill="#ff6584" />
+  <text x="361" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Postgraduate</text>
+  <text x="361" y="212" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">94%</text>
+
+  <!-- Level 5 -->
+  <rect x="420" y="260" width="42" height="160" rx="4" fill="#c41e3a" />
+  <text x="441" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Associate</text>
+  <text x="441" y="252" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff" text-anchor="middle">79%</text>
+
+  <line x1="50" y1="420" x2="470" y2="420" stroke="#4e1b27" stroke-width="1" />
+
+  <!-- Chart 2: Employment Industry Distribution (Right) -->
+  <rect x="504" y="175" width="272" height="300" rx="12" fill="url(#eCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="522" y="206" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#ffffff">Top Hiring Sectors</text>
+  <text x="522" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">Graduate placement share</text>
+
+  <!-- Sector 1 -->
+  <text x="522" y="258" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Information Technology</text>
+  <text x="730" y="258" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#ff6584">34%</text>
+  <rect x="522" y="266" width="230" height="8" rx="4" fill="#4e1b27" />
+  <rect x="522" y="266" width="180" height="8" rx="4" fill="#ff6584" />
+
+  <!-- Sector 2 -->
+  <text x="522" y="304" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Business &amp; Finance</text>
+  <text x="730" y="304" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#ff6584">26%</text>
+  <rect x="522" y="312" width="230" height="8" rx="4" fill="#4e1b27" />
+  <rect x="522" y="312" width="140" height="8" rx="4" fill="#c41e3a" />
+
+  <!-- Sector 3 -->
+  <text x="522" y="350" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Education &amp; Training</text>
+  <text x="730" y="350" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#ff6584">18%</text>
+  <rect x="522" y="358" width="230" height="8" rx="4" fill="#4e1b27" />
+  <rect x="522" y="358" width="95" height="8" rx="4" fill="#c41e3a" />
+
+  <!-- Sector 4 -->
+  <text x="522" y="396" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Healthcare &amp; Allied</text>
+  <text x="730" y="396" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#ff94a9">14%</text>
+  <rect x="522" y="404" width="230" height="8" rx="4" fill="#4e1b27" />
+  <rect x="522" y="404" width="75" height="8" rx="4" fill="#961329" />
+</svg>
+

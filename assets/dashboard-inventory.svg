@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="iBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c070c" />
+      <stop offset="100%" stop-color="#2c0c16" />
+    </linearGradient>
+    <linearGradient id="iCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38111d" />
+      <stop offset="100%" stop-color="#2a0a14" />
+    </linearGradient>
+    <linearGradient id="iRed" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c41e3a" />
+      <stop offset="100%" stop-color="#ff6584" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#iBg)" />
+
+  <!-- Top Bar -->
+  <rect width="800" height="50" fill="#240a12" />
+  <text x="24" y="32" font-family="'Inter', sans-serif" font-weight="700" font-size="16" fill="#ffffff">SUPPLY CHAIN &amp; INVENTORY OPERATIONS</text>
+  <rect x="630" y="14" width="146" height="24" rx="12" fill="#3f1420" />
+  <text x="650" y="30" font-family="'Inter', sans-serif" font-size="11" fill="#ffb8c5">Warehouse: All Sites ▾</text>
+
+  <!-- KPI Cards -->
+  <!-- KPI 1 -->
+  <rect x="24" y="70" width="170" height="85" rx="10" fill="url(#iCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="38" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">TOTAL STOCK VALUE</text>
+  <text x="38" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ffffff">$1.84M</text>
+  <text x="38" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff6584">Optimal stock balance</text>
+
+  <!-- KPI 2 -->
+  <rect x="214" y="70" width="170" height="85" rx="10" fill="url(#iCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="228" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">STOCK TURNOVER</text>
+  <text x="228" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ffffff">6.4x / yr</text>
+  <text x="228" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff6584">▲ +0.8x velocity</text>
+
+  <!-- KPI 3 -->
+  <rect x="404" y="70" width="170" height="85" rx="10" fill="url(#iCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="418" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">FILL RATE (OTIF)</text>
+  <text x="418" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ffffff">97.8%</text>
+  <text x="418" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff6584">On-Time In-Full</text>
+
+  <!-- KPI 4 -->
+  <rect x="594" y="70" width="182" height="85" rx="10" fill="url(#iCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="608" y="94" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">REORDER ALERTS</text>
+  <text x="608" y="124" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#ff6584">14 SKUs</text>
+  <text x="608" y="142" font-family="'Inter', sans-serif" font-size="10" fill="#ff94a9">Action recommended</text>
+
+  <!-- Chart 1: Bar Chart of Inventory by Category (Left) -->
+  <rect x="24" y="175" width="460" height="300" rx="12" fill="url(#iCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="44" y="206" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#ffffff">Inventory Levels vs Reorder Thresholds</text>
+  <text x="44" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">Category stock allocation (Units vs Target Safety Stock)</text>
+
+  <!-- Column Bars -->
+  <!-- Col 1 -->
+  <rect x="70" y="270" width="36" height="150" rx="4" fill="#c41e3a" />
+  <rect x="110" y="320" width="36" height="100" rx="4" fill="#4e1b27" />
+  <text x="108" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Electronics</text>
+
+  <!-- Col 2 -->
+  <rect x="180" y="250" width="36" height="170" rx="4" fill="#ff6584" />
+  <rect x="220" y="290" width="36" height="130" rx="4" fill="#4e1b27" />
+  <text x="218" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Apparel</text>
+
+  <!-- Col 3 -->
+  <rect x="290" y="300" width="36" height="120" rx="4" fill="#c41e3a" />
+  <rect x="330" y="340" width="36" height="80" rx="4" fill="#4e1b27" />
+  <text x="328" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Home Goods</text>
+
+  <!-- Col 4 -->
+  <rect x="400" y="280" width="36" height="140" rx="4" fill="#ff6584" />
+  <rect x="440" y="310" width="36" height="110" rx="4" fill="#4e1b27" />
+  <text x="438" y="445" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf" text-anchor="middle">Industrial</text>
+
+  <line x1="50" y1="420" x2="470" y2="420" stroke="#4e1b27" stroke-width="1" />
+  <!-- Legend -->
+  <rect x="320" y="200" width="10" height="10" rx="2" fill="#ff6584" />
+  <text x="336" y="209" font-family="'Inter', sans-serif" font-size="10" fill="#ffffff">Current Stock</text>
+  <rect x="405" y="200" width="10" height="10" rx="2" fill="#4e1b27" />
+  <text x="421" y="209" font-family="'Inter', sans-serif" font-size="10" fill="#e6c8cf">Safety Stock</text>
+
+  <!-- Chart 2: Supplier Lead Time & Performance (Right) -->
+  <rect x="504" y="175" width="272" height="300" rx="12" fill="url(#iCard)" stroke="#4e1b27" stroke-width="1" />
+  <text x="522" y="206" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#ffffff">Supplier On-Time Rating</text>
+  <text x="522" y="224" font-family="'Inter', sans-serif" font-size="11" fill="#e6c8cf">Lead time compliance score</text>
+
+  <!-- Supplier 1 -->
+  <text x="522" y="258" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Global Logistics Hub</text>
+  <text x="730" y="258" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#ff6584">98%</text>
+  <rect x="522" y="266" width="230" height="8" rx="4" fill="#4e1b27" />
+  <rect x="522" y="266" width="225" height="8" rx="4" fill="#ff6584" />
+
+  <!-- Supplier 2 -->
+  <text x="522" y="304" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Pacific Components</text>
+  <text x="730" y="304" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#ff6584">94%</text>
+  <rect x="522" y="312" width="230" height="8" rx="4" fill="#4e1b27" />
+  <rect x="522" y="312" width="216" height="8" rx="4" fill="#c41e3a" />
+
+  <!-- Supplier 3 -->
+  <text x="522" y="350" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">Apex Freight &amp; Cargo</text>
+  <text x="730" y="350" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#ff6584">91%</text>
+  <rect x="522" y="358" width="230" height="8" rx="4" fill="#4e1b27" />
+  <rect x="522" y="358" width="209" height="8" rx="4" fill="#c41e3a" />
+
+  <!-- Supplier 4 -->
+  <text x="522" y="396" font-family="'Inter', sans-serif" font-size="11" fill="#ffffff">East Asia Raw Materials</text>
+  <text x="730" y="396" font-family="'Inter', sans-serif" font-weight="700" font-size="11" fill="#ff94a9">86%</text>
+  <rect x="522" y="404" width="230" height="8" rx="4" fill="#4e1b27" />
+  <rect x="522" y="404" width="197" height="8" rx="4" fill="#961329" />
+</svg>
+
